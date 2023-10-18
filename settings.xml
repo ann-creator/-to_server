@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>2000</particles>
+  <batches>80</batches>
+  <inactive>10</inactive>
+  <source strength="1.0">
+    <space type="fission">
+      <parameters>-10 -10 -175.0 10 10 175.0</parameters>
+    </space>
+    <time parameters="0 1" type="uniform" />
+  </source>
+</settings>
